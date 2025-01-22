@@ -1,0 +1,149 @@
+
+/* .btn {
+  padding: 7px;
+  font-size: 15px;
+  box-shadow: 6px 6px 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background-color: #FCBD23;
+  }
+
+  .btn::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0rem;
+    height: 3rem;
+    transition: .5s ease;
+    position: absolute;
+    background-color: lemonchiffon;
+    
+    z-index: -1;
+    }
+    
+
+    .btn:hover::before {
+      font-size: 15px;
+      width: 8rem;
+  cursor: pointer;
+      } */
+
+
+      /* /////////////////////////////////////  primary button //////////////////////////////////// */
+
+      .btn-primary {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        font-weight: bold;
+        z-index: 0; 
+        background-color: #FCBD23;
+        color: black;
+      }
+      
+      .btn-primary::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%; 
+        background-color: black;
+        z-index: -1; 
+        transition: width 0.5s ease;
+      }
+      
+      .btn-primary:hover::before {
+        width: 100%; 
+      }
+      
+      .btn-primary:hover {
+        color: white; 
+      }
+      
+/* /////////////////////////////////////  secondary button //////////////////////////////////// */
+      .btn-secondary {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        font-weight: bold;  
+        z-index: 0; 
+        background-color: black;
+        color: whitesmoke;
+      }
+      
+      .btn-secondary::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%; 
+        background-color: #FCBD23;
+        z-index: -1; 
+        transition: width 0.5s ease;
+      }
+      
+      .btn-secondary:hover::before {
+        width: 100%; 
+      }
+      
+      .btn-secondary:hover {
+        color: black; 
+      }
+      
+      /* /////////////////////////////////////  third button //////////////////////////////////// */
+
+      .btn-third {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        font-weight: bold;  
+        z-index: 0; 
+        background-color: white;
+        color: black;
+      }
+      
+      .btn-third::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%; 
+        background-color: #B3B3B3;
+        z-index: -1; 
+        transition: width 0.5s ease;
+      }
+      
+      .btn-third:hover::before {
+        width: 100%; 
+      }
+      
+      .btn-third:hover {
+        color: black; 
+      }
+
+
+
+
+
+
+
+
+
+
+
+
