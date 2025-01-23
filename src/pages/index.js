@@ -6,10 +6,10 @@ import OfferCardSection from "@/components/OfferCardSection";
 export default function Home() {
   return (
     <>
-      <NavBar/>
-      <HeroSection/>
-      <ArticleSection/>
-      <OfferCardSection/>
+      <NavBar />
+      <HeroSection />
+      <ArticleSection />
+      <OfferCardSection />
     </>
   );
 }
