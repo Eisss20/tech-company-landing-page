@@ -1,0 +1,52 @@
+.startPackageContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* ความสูงเต็มหน้าจอ */
+  width: 100%; /* ความกว้างเต็มหน้าจอ */
+  overflow: hidden; /* ซ่อนส่วนที่เกิน */
+}
+
+.imageContainer {
+  position: absolute; /* วางภาพไว้เบื้องหลัง */
+  top: 0;
+  left: 0;
+  width: 100%; /* ให้ภาพครอบคลุมพื้นที่ */
+  height: 100%; /* ให้ภาพครอบคลุมพื้นที่ */
+  z-index: -1; /* วางภาพไว้ด้านหลังเนื้อหา */
+}
+
+.startPackageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; /* ทำให้เนื้อหาอยู่ด้านหน้ารูปภาพ */
+}
+
+.startPackageText {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+.startButton {
+  padding: 0.7rem 1.25rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.startButton:hover {
+  background-color: #ffbf23;
+  color: black;
+  border: 1px solid black;
+}

@@ -1,11 +1,5 @@
-import NavBar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
+import StartPackage from "../components/StartPackage";
 
 export default function Home() {
-  return (
-    <>
-      <NavBar />
-      <HeroSection />
-    </>
-  );
+  return <StartPackage />;
 }

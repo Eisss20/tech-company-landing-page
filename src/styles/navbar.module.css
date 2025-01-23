@@ -1,95 +1,92 @@
 .navSection {
-    padding: 2rem;
-    padding-left: 8rem;
-    background-color: ghostwhite;
-    display: flex;
-    gap: 10px ;
-    align-items: center; 
-  }
-  
-  .containerIcon {
-    padding-top: 6px;
-  }
+  padding: 2rem;
+  padding-left: 8rem;
+  background-color: ghostwhite;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 
+.containerIcon {
+  padding-top: 6px;
+}
 
-  .boxIcon {
+.boxIcon {
   padding-right: 5px;
   width: 40px;
   height: 40px;
-  background-color:black;
+  background-color: black;
   border-radius: 5px;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  gap: 6px; 
-  }
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
 
-  .circleIcon {  
-    width: 8px;            
-    height: 8px;           
-    background-color: white;
-    border-radius: 50%;     
-  }
+.circleIcon {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+}
 
-  .lineIcon {  
-    width: 6.5px;            
-    height: 30px;           
-    background-color: white;
-    border-radius:40px; 
-    transform: rotate(35deg);    
-  }
+.lineIcon {
+  width: 6.5px;
+  height: 30px;
+  background-color: white;
+  border-radius: 40px;
+  transform: rotate(35deg);
+}
 
-  .detailArticleIcon {
-   font-size: 15px;
-  }
+.detailArticleIcon {
+  font-size: 15px;
+}
 
-  .linkBox {
-    padding-left: 30rem;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
+.linkBox {
+  padding-left: 30rem;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
 
-  .linkElement{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 10px;
+.linkElement {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+}
 
-  }
+.linkElement::hover {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  cursor: pointer;
+}
 
-  .linkElement::hover {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    cursor: pointer;
-  }
+.navLink {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
 
-  .navLink {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-  }
-  
-  .navLink:hover {
-    text-decoration: underline; 
-    color: #FCBD23
-  }
+.navLink:hover {
+  text-decoration: underline;
+  color: #fcbd23;
+}
 
-  .boxIconFaUser{
-display: flex;
-flex-direction: row;
-gap: 10px;
+.boxIconFaUser {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 
-  }
+.FaUserCircle {
+  width: 20px;
+  height: 20px;
+}
 
-  .FaUserCircle{
-    width: 20px;
-    height: 20px;
-  }
-
-  .buttonStarted{
+.buttonStarted {
   padding: 7px;
   font-size: 15px;
   box-shadow: 6px 6px 1px;
@@ -98,26 +95,24 @@ gap: 10px;
   overflow: hidden;
   position: relative;
   z-index: 1;
-  background-color: #FCBD23;
-  
-  }
+  background-color: #fcbd23;
+}
 
-  .buttonStarted::before{
-    content: "";
-    top: 0;
-    left: 0;
-    width: 0rem;
-    height: 3rem;
-    transition: .5s ease;
-    position: absolute;
-    background-color: lemonchiffon;
-    
-    z-index: -1;
+.buttonStarted::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0rem;
+  height: 3rem;
+  transition: 0.5s ease;
+  position: absolute;
+  background-color: lemonchiffon;
 
-    }
+  z-index: -1;
+}
 
-    .buttonStarted:hover::before{
+.buttonStarted:hover::before {
   font-size: 15px;
-      width: 6rem;
+  width: 6rem;
   cursor: pointer;
-      }
+}
