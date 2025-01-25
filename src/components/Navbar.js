@@ -1,22 +1,17 @@
 import styles from '../styles/navbar.module.css';
 import Link from 'next/link';
 import { FaUserCircle } from "react-icons/fa";
+import LogoIcon from './LogoCompany';
+import { RxHamburgerMenu } from "react-icons/rx";
 
 export default function NavBar() {
   return (
     <> 
       <nav className={styles.navSection}>
-        <section className={styles.containerIcon}> 
-      <div className={styles.boxIcon}>
-        <div className={styles.circleIcon}> </div>
-        <div className={styles.lineIcon}> </div>
-      </div>
-      </section>
-      <article className={styles.articleIcon}> 
-      <h2> WeDu </h2> 
-      <p className={styles.detailArticleIcon}> Communicate. Collaborate. Create. </p>
-      </article>
+      <LogoIcon/>
+      <RxHamburgerMenu className={styles.RxHamburgerMenu} />
       <section className={styles.linkBox}> 
+
       <div className={styles.linkElement}>
           <Link href="#home" className={styles.navLink} >Home</Link>
 

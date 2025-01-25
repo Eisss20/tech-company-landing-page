@@ -1,70 +1,83 @@
-.navSection {
-    padding: 2rem;
-    padding-left: 8rem;
+
+@media (max-width: 376px) {
+  .navSection {
+    padding: 1rem;
+    padding-left: 1rem;
     background-color: ghostwhite;
     display: flex;
-    gap: 10px ;
-    align-items: center; 
+    gap: 44px;
+    align-items: center;
   }
   
+  .RxHamburgerMenu {
+  width: 40px;
+  height: 40px;
+  }
+  
+  .linkBox {
+    display: none;
+  }
+  
+  .linkElement {
+    display: none;
+  }
+  
+  .linkElement::hover {
+    display: none;
+  }
+  
+  .navLink {
+    display: none;
+  }
+  
+  .navLink:hover {
+    display: none;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  .navSection {
+    padding: 2rem;
+    padding-left: 5rem;
+    background-color: ghostwhite;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  
+  .RxHamburgerMenu {
+   display: none;
+    }
+
+
   .containerIcon {
     padding-top: 6px;
   }
-
-
-  .boxIcon {
-  padding-right: 5px;
-  width: 40px;
-  height: 40px;
-  background-color:black;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  gap: 6px; 
-  }
-
-  .circleIcon {  
-    width: 8px;            
-    height: 8px;           
-    background-color: white;
-    border-radius: 50%;     
-  }
-
-  .lineIcon {  
-    width: 6.5px;            
-    height: 30px;           
-    background-color: white;
-    border-radius:40px; 
-    transform: rotate(35deg);    
-  }
-
-  .detailArticleIcon {
-   font-size: 15px;
-  }
-
+  
+  
   .linkBox {
     padding-left: 30rem;
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
-
-  .linkElement{
+  
+  .linkElement {
     display: flex;
     flex-direction: row;
     gap: 20px;
     padding: 10px;
-
   }
-
+  
   .linkElement::hover {
     display: flex;
     flex-direction: row;
     padding: 10px;
     cursor: pointer;
   }
-
+  
   .navLink {
     text-decoration: none;
     color: black;
@@ -73,51 +86,55 @@
   }
   
   .navLink:hover {
-    text-decoration: underline; 
-    color: #FCBD23
+    text-decoration: underline;
+    color: #fcbd23;
   }
-
-  .boxIconFaUser{
-display: flex;
-flex-direction: row;
-gap: 10px;
-
+  
+  .boxIconFaUser {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
-
-  .FaUserCircle{
+  
+  .FaUserCircle {
     width: 20px;
     height: 20px;
   }
-
-  .buttonStarted{
-  padding: 7px;
-  font-size: 15px;
-  box-shadow: 6px 6px 1px;
-  border-radius: 10px;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-  background-color: #FCBD23;
   
+  .buttonStarted {
+    padding: 7px;
+    font-size: 15px;
+    box-shadow: 6px 6px 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background-color: #fcbd23;
   }
-
-  .buttonStarted::before{
+  
+  .buttonStarted::before {
     content: "";
     top: 0;
     left: 0;
     width: 0rem;
     height: 3rem;
-    transition: .5s ease;
+    transition: 0.5s ease;
     position: absolute;
     background-color: lemonchiffon;
-    
+  
     z-index: -1;
+  }
+  
+  .buttonStarted:hover::before {
+    font-size: 15px;
+    width: 6rem;
+    cursor: pointer;
+  }
+  
+  
+}
 
-    }
 
-    .buttonStarted:hover::before{
-  font-size: 15px;
-      width: 6rem;
-  cursor: pointer;
-      }
+
+

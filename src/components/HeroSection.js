@@ -7,6 +7,9 @@ import LogoIcon from './LogoCompany';
 export default function HeroSection() {
     return (
       <> 
+        <div className={styles.buttonTop}> 
+        <button className={styles.buttonStarted}>Get Started</button>
+        </div> 
         <article className={styles.titleContainer}>
         <div>
         <h1> 
@@ -29,7 +32,7 @@ export default function HeroSection() {
 
         </article> 
 
-        <LogoIcon/>
+
       </>
     );
   }

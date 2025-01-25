@@ -1,3 +1,4 @@
+
 .LogoIconBox{
 display: flex;
 flex-direction: row;
@@ -38,3 +39,39 @@ gap: 10px;
   .detailArticleIcon {
    font-size: 15px;
   }
+
+
+  @media (max-width: 376px) {
+    .boxIcon {
+      padding-right: 5px;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      gap: 6px; 
+      }
+    
+      .circleIcon {  
+        width: 8px;            
+        height: 8px;           
+        background-color: white;
+        border-radius: 50%;     
+      }
+    
+      .lineIcon {  
+        width: 6.5px;            
+        height: 30px;           
+        background-color: white;
+        border-radius:40px; 
+        transform: rotate(35deg);    
+      }
+    
+      .detailArticleIcon {
+       font-size: 13px;
+      }
+    
+  }
+  
