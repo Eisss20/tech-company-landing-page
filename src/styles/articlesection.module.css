@@ -44,3 +44,56 @@
   }
 
 }
+
+
+
+@media (min-width: 1200px) { 
+    .curvedBox {
+        position: relative;
+        width: 100%;
+        height: 110px; /* ความสูงของส่วนทั้งหมด */
+        background-color: #f8b400; /* สีเหลือง */
+        overflow: hidden; /* ซ่อนส่วนที่ยื่นเกิน */
+      }
+      
+    .curvedSection {
+        position: absolute;
+        top: -50px; /* ยื่นขึ้นด้านบน */
+        left: -5%; /* ดันไปทางซ้าย */
+        width: 150%; /* ขยายความกว้างเพื่อเพิ่มการโค้ง */
+        height: 110px; /* ความสูงของโค้ง */
+        background-color: white; /* สีขาว */
+        border-bottom: solid 1px #f8b400; /* เส้นขอบสีเหลือง */
+        border-radius: 70% / 70%; 
+      }
+    
+      .containerArticle{
+        height: 30rem;
+        background-color: #f8b400;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        gap: 20rem;
+        padding-bottom: 3.5rem;
+      }
+    
+      .fontheadArticle{
+        overflow: hidden; /* ซ่อนข้อความที่เกินขอบ */
+        white-space: normal; 
+        font-size: 45px;
+        width: 30rem;
+      }
+    
+      .fontDialog{
+        width: 40rem;
+        word-wrap: break-word; /* ตัดข้อความเมื่อคำยาวเกิน */
+        word-break: break-word; 
+        white-space: normal;
+        line-height: 1.5; /* อนุญาตให้ข้อความขึ้นบรรทัดใหม่ */
+        text-align: justify;
+        font-size: 20px;
+      }
+    
+    }
