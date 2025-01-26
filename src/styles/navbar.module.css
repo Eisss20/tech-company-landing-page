@@ -36,11 +36,12 @@
 
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .navSection {
+    max-width: 1440px; /* ล็อกความกว้าง */
+    margin: 0 auto; 
     padding: 2rem;
-    padding-left: 5rem;
-    background-color: ghostwhite;
+    padding-left: 2rem;
     display: flex;
     gap: 10px;
     align-items: center;

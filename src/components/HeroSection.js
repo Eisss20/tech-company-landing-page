@@ -30,31 +30,31 @@ export default function HeroSection() {
         </main>
         <figcaption className={styles.semiArticle}>
         <p> 
-        WeDu provides an effective and  <br/>  powerful way to manage your projects 
+        WeDu provides an effective and  <br className={styles.brDetailHeroMobile}/>  powerful <br className={styles.brDetailHeroDecktop}/> way to manage your projects 
         </p>    
         </figcaption>
+        <div className={styles.buttonHero}> 
+        <CustomButton
+  buttonType="secondary"
+  className={styles.btnHero} // เพิ่มคลาสที่กำหนดเอง
+>
+  Get Started
+</CustomButton>
+          </div>
+
         <figure className={styles.listIcon}> 
         <aside className={styles.containerIcon}> 
-        <div className={styles.iconBox}>  <HiMiniBolt className={styles.iconSize} /> </div> <p> Speed & Security </p>
+        <div className={styles.iconBox}>  <HiMiniBolt className={styles.iconSize} /> </div> <p> Speed & <br className={styles.brFordetailIcon}/> Security </p>
         </aside>  
         <aside className={styles.containerIcon}> 
-        <div className={styles.iconBox}>  <LuExpand className={styles.iconSize} /> </div> <p> Flexibility & Scalability </p>
+        <div className={styles.iconBox}>  <LuExpand className={styles.iconSize} /> </div> <p> Flexibility & <br className={styles.brFordetailIcon}/>Scalability </p>
         </aside>  
         <aside className={styles.containerIcon}> 
-        <div className={styles.iconBox}>  <GoCodeOfConduct className={styles.iconSize} /> </div> <p> Better Collaboration </p>
+        <div className={styles.iconBox}>  <GoCodeOfConduct className={styles.iconSize} /> </div> <p> Better <br className={styles.brFordetailIcon}/>Collaboration </p>
         </aside>  
         </figure>
         </section>
         </article> 
-
-
-
-        {/* <CustomButton
-  buttonType="secondary"
->
-  Get Started
-</CustomButton> */}
-
 
       </>
     );
