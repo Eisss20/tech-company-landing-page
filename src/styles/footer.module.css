@@ -57,7 +57,7 @@
   text-decoration: underline;
 }
 
-/* Follow Social */
+/* Follow */
 .footerFollow ul li {
   margin-bottom: 1rem;
 }
@@ -113,6 +113,11 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+.footerSocial ul li a {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
