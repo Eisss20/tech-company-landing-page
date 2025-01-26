@@ -32,7 +32,9 @@ function Footer() {
           </div>
           <div className={styles.footerQuickLinks}>
             <ul>
-              Quick Links
+              <li>
+                <strong>Quick Links</strong>
+              </li>
               <li>
                 <a href="#terms">Terms & Conditions</a>
               </li>
@@ -43,7 +45,9 @@ function Footer() {
           </div>
           <div className={styles.footerFollow}>
             <ul>
-              Follow
+              <li>
+                <strong>Follow</strong>
+              </li>
               <li>Sign up to get the latest news on our product.</li>
               <label htmlFor="email">Email *</label>
               <input id="email" type="email" className={styles.emailBox} />
@@ -65,13 +69,19 @@ function Footer() {
           <div className={styles.footerSocial}>
             <ul>
               <li>
-                <strong>LinkedIn</strong>
+                <a href="https://www.linkedin.com" target="_blank">
+                  LinkedIn
+                </a>
               </li>
               <li>
-                <strong>YouTube</strong>
+                <a href="https://www.youtube.com" target="_blank">
+                  YouTube
+                </a>
               </li>
               <li>
-                <strong>Facebook</strong>
+                <a href="https://www.facebook.com" target="_blank">
+                  Facebook
+                </a>
               </li>
             </ul>
           </div>
