@@ -1,0 +1,72 @@
+.PromotionalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  gap: 2rem;
+}
+
+.PromotionalText {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.PromotionalButton {
+  padding: 0.7rem 1.25rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 10;
+}
+
+.PromotionalButton:hover {
+  background-color: #ffbf23;
+  color: black;
+  border: 1px solid black;
+  z-index: 10;
+}
+
+.stripe {
+  width: 100%;
+  height: 6rem;
+  background-color: #ffbf23;
+  margin-top: -8rem;
+  z-index: 0;
+}
+
+.PromotionalImage {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin-top: -5rem;
+  z-index: 1;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .PromotionalText {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .PromotionalImage {
+    width: 135%;
+    height: auto;
+  }
+
+  .stripe {
+    height: 4rem;
+    margin-top: -6rem;
+  }
+}

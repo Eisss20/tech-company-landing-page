@@ -1,5 +1,5 @@
-import StartPackage from "../components/StartPackage";
+import Promotional from "../components/Promotional";
 
 export default function Home() {
-  return <StartPackage />;
+  return <Promotional />;
 }
