@@ -55,7 +55,14 @@ export default function HeroSection() {
         </figure>
         </section>
         </article> 
-
+        <div className={styles.boxBtnbotMobile}> 
+        <CustomButton
+  buttonType="secondary"
+  className={styles.btnHeroMobile} // เพิ่มคลาสที่กำหนดเอง
+>
+  Get Started
+</CustomButton>
+</div>
       </>
     );
   }

@@ -105,6 +105,20 @@
       .btnHero{
       display: none;
       }
+
+      .boxBtnbotMobile{
+        padding: 1rem;
+        padding-top: 2rem;
+
+      }
+
+      .btnHeroMobile{
+        padding: 1rem;
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+        font-size: 18px;
+
+      }
 }
 
 
@@ -181,6 +195,11 @@
     }
 
     .brDetailHeroMobile{
+      display: none;
+
+    }
+
+    .btnHeroMobile{
       display: none;
 
     }
