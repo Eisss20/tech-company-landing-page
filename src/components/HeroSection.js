@@ -1,7 +1,5 @@
 import styles from '../styles/herosection.module.css';
 import { CustomButton } from './CustomElements';
-import LogoIcon from './LogoCompany';
-import { SiThunderstore } from "react-icons/si";
 import { LuExpand } from "react-icons/lu";
 import { HiMiniBolt } from "react-icons/hi2";
 import { GoCodeOfConduct } from "react-icons/go";
@@ -58,7 +56,7 @@ export default function HeroSection() {
         <div className={styles.boxBtnbotMobile}> 
         <CustomButton
   buttonType="secondary"
-  className={styles.btnHeroMobile} // เพิ่มคลาสที่กำหนดเอง
+  className={styles.btnheroButton} 
 >
   Get Started
 </CustomButton>

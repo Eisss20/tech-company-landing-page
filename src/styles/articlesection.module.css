@@ -35,6 +35,7 @@
   }
 
   .fontDialog{
+    font-size: 18px;
     width: 21rem;
     word-wrap: break-word; /* ตัดข้อความเมื่อคำยาวเกิน */
     word-break: break-word; /* ใช้กับคำยาวๆ */

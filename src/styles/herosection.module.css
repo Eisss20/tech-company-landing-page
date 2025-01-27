@@ -112,12 +112,11 @@
 
       }
 
-      .btnHeroMobile{
+      .btnheroButton{
         padding: 1rem;
         padding-left: 7.5rem;
         padding-right: 7.5rem;
         font-size: 18px;
-
       }
 }
 
@@ -199,7 +198,7 @@
 
     }
 
-    .btnHeroMobile{
+    .btnheroButton{
       display: none;
 
     }

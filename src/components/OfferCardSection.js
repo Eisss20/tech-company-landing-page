@@ -28,35 +28,33 @@ export default function OfferCardSection() {
 
   return (
     <>
-      <main>
-        <article>
-          <h1> What We Offer </h1>
-          <p>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
+      <main className={styles.containerOffer}>
+        <article className={styles.containerArticle}>
+          <h1 className={styles.headArticle}> What We Offer </h1>
+          <p className={styles.detailArticle}>
+            I'm a paragraph. Click here to add your own text and edit me. It's
             easy. Just click “Edit Text” or double click me to add your own
             content and make changes to the font.
           </p>
         </article>
-        <figure>
-          <section>
-            <aside>
+        <figure className={styles.containerCardOffer} >
+            <aside className={styles.insideOfferCard}>
               {cardDetail.map((card, index) => (
-                <div key={index}>
+                <div key={index} className={styles.boxCardOffer}   >
                   <div>
                     <img
                       src={card.image}
                       alt={card.title}
-                      className={styles.CardSection}
+                      className={styles.cardElement}
                     />
                   </div>
-                  <figcaption>
-                    <h1>{card.title}</h1>
-                    <p>{card.description}</p>
+                  <figcaption className={styles.boxdetailCard} >
+                    <h1 className={styles.headDetailCard}>{card.title}</h1>
+                    <p className={styles.desDetailCard}>{card.description}</p>
                   </figcaption>
                 </div>
               ))}
             </aside>
-          </section>
         </figure>
       </main>
     </>
