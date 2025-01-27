@@ -1,0 +1,166 @@
+.footer {
+  background-color: #ffbf23;
+  padding: 5rem 7rem 3rem 7rem;
+  margin-top: -1px;
+  width: 100%;
+}
+
+/* Content */
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 8rem;
+  margin-top: 3rem;
+}
+
+.footerContent ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footerContent ul li strong {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footerContent ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Contact */
+.footerContact ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  font-size: 16px;
+}
+
+.footerContact ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footerContact ul li:first-child {
+  grid-column: span 2;
+  font-weight: 700;
+}
+
+/* Quick Links */
+.footerQuickLinks ul li a {
+  text-decoration: underline;
+}
+
+/* Follow */
+.footerFollow ul li {
+  margin-bottom: 1rem;
+}
+
+.footerFollow ul label {
+  font-size: 16px;
+}
+
+.footerFollow ul li label {
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+.emailBox {
+  background-color: #ffbf23;
+  padding: 0.8rem 0.5rem;
+  border: 2px solid black;
+  border-radius: 0.3rem;
+}
+
+.emailBox:focus,
+.emailBox:hover {
+  background-color: white;
+}
+
+.subscribeButton {
+  padding: 0.8rem 1.25rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 0.5rem;
+}
+
+.subscribeButton:hover {
+  background-color: #ffbf23;
+  color: black;
+  border: 1px solid black;
+}
+
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.customCheckbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.footerSocial ul li a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1.2rem;
+  }
+
+  .footerContent {
+    flex-direction: column;
+    padding: 2px;
+  }
+
+  .footerContent div {
+    margin-bottom: 1rem;
+  }
+
+  .footerContact ul,
+  .footerQuickLinks ul,
+  .footerFollow ul,
+  .footerSocial ul {
+    margin-bottom: 2rem;
+  }
+
+  .footerContact ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .footerQuickLinks ul,
+  .footerFollow ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footerSocial ul {
+    display: flex;
+    flex-direction: row;
+    gap: auto;
+    justify-content: space-between;
+  }
+
+  .checkboxWrapper {
+    margin: 1rem 0;
+  }
+}

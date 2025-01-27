@@ -1,0 +1,200 @@
+.pricingContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 7rem 15rem;
+  background-color: #f6f5f5;
+}
+
+.pricingTitle {
+  font-size: 36px;
+  font: weight 600px;
+  margin-bottom: 20px;
+}
+
+.pricingText {
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.pricingText p {
+  font-size: medium;
+  font-weight: 500;
+  line-height: 1.5;
+  color: black;
+}
+
+.moreButton {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  position: relative;
+  border: 1px solid black;
+  z-index: 0;
+}
+
+.moreButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #ffbf23;
+  transition: width 0.5s ease;
+  z-index: -1;
+}
+
+.moreButton:hover::before {
+  width: 100%;
+}
+
+.moreButton:hover {
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s ease;
+}
+
+.pricingCards {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.pricingCardsTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0.5rem;
+  position: absolute;
+  border: 2px solid black;
+  width: 7rem;
+  background-color: #ffbf23;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.priceWrapper {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.priceCurrency {
+  font-size: 16px;
+  line-height: 1;
+  color: white;
+  position: relative;
+  top: -0.3rem;
+}
+
+.priceAmount {
+  font-size: 56px;
+  font-weight: bold;
+  color: white;
+}
+
+.pricingCardBottom {
+  background-color: #ffd7ef;
+  color: black;
+  padding: 2rem;
+  font-size: medium;
+  font-weight: 600;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 20px;
+}
+
+.pricingCardBottom ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricingCardBottom li {
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pricingCardBottom li .icon {
+  color: black;
+  font-size: 18px;
+}
+
+.pricingCardBottom li::before {
+  color: black;
+  font-weight: bold;
+}
+
+.pricingCards h1 {
+  font-size: 36px;
+  margin-bottom: 0.5rem;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.pricingCards p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  padding: 0.2rem 2rem;
+}
+
+.promotionExpired {
+  font-size: 10px;
+  font-weight: 400;
+  color: white;
+  margin-top: 1rem;
+}
+
+.pricingCards button {
+  padding: 15px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  margin: 2rem auto;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.pricingCards button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .pricingContainer {
+    flex-direction: column;
+    padding: 5rem 2rem;
+    gap: 5rem;
+  }
+
+  .pricingCards {
+    margin-bottom: 2rem;
+  }
+
+  .pricingCards button {
+    width: 80%;
+  }
+}
