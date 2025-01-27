@@ -5,6 +5,9 @@ import Image from "next/image";
 function Promotional() {
   return (
     <>
+      <div className={styles.cruvedPromotionalBox}>
+        <div className={styles.cruvedPromotionalSection}></div>
+      </div>
       <section className={styles.PromotionalContainer}>
         <div className={styles.PromotionalText}>
           <p>Get Ready to Maximize Your Productivity</p>

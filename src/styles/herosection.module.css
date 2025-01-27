@@ -1,84 +1,82 @@
-@media (max-width: 376px) { 
-  .buttonTop{
+@media (max-width: 768px) {
+  .buttonTop {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    }
-    
-    .buttonStarted {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 1rem;
-        padding-left: 7rem;
-        padding-right: 7rem;
-        font-size: 18px;
-        box-shadow: 6px 6px 1px;
-        border-radius: 10px;
-        cursor: pointer;
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
-        background-color: #fcbd23;
-      }
-      
-      .buttonStarted::before {
-        content: "";
-        top: 0;
-        left: 0;
-        width: 0rem;
-        height: 4rem;
-        transition: 0.5s ease;
-        position: absolute;
-        background-color: lemonchiffon;
-      
-        z-index: -1;
-      }
-      
-      .buttonStarted:hover::before {
-        font-size: 15px;
-        width: 20rem;
-        cursor: pointer;
-      }
-    
-    
-      .heroImage{ 
-          width: 100%;
-          max-width: 850px; 
-      }
-    
-    .titleContainer{
+  }
+
+  .buttonStarted {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    font-size: 18px;
+    box-shadow: 6px 6px 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    background-color: #fcbd23;
+  }
+
+  .buttonStarted::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0rem;
+    height: 4rem;
+    transition: 0.5s ease;
+    position: absolute;
+    background-color: lemonchiffon;
+
+    z-index: -1;
+  }
+
+  .buttonStarted:hover::before {
+    font-size: 15px;
+    width: 20rem;
+    cursor: pointer;
+  }
+
+  .heroImage {
+    width: 100%;
+    max-width: 850px;
+  }
+
+  .titleContainer {
     display: flex;
     flex-direction: column;
-    }
-    
-    .headArticle{
+  }
+
+  .headArticle {
     padding-left: 1rem;
     font-size: 26px;
-    }
-    
-    .semiArticle{
+  }
+
+  .semiArticle {
     padding-left: 1rem;
     padding-top: 1rem;
     font-size: 18px;
-    }
-    
-    .listIcon {
+  }
+
+  .listIcon {
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
     padding-top: 2rem;
     gap: 1rem;
-    
-    }
-    
-    .containerIcon{
+  }
+
+  .containerIcon {
     display: flex;
     align-items: center;
-    gap: 2rem ;
-    }
-    
-    .iconBox{
+    gap: 2rem;
+  }
+
+  .iconBox {
     width: 30px;
     height: 30px;
     background: black;
@@ -87,86 +85,84 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    }
-    
-    .iconSize{
+  }
+
+  .iconSize {
     width: 20px;
     height: 20px;
     color: floralwhite;
-    }
+  }
 
-    .brFordetailIcon{
+  .brFordetailIcon {
     display: none;
-    }
-    .brDetailHeroDecktop{
-      display: none;
-      }
+  }
+  .brDetailHeroDecktop {
+    display: none;
+  }
 
-      .btnHero{
-      display: none;
-      }
+  .btnHero {
+    display: none;
+  }
 
-      .boxBtnbotMobile{
-        padding: 1rem;
-        padding-top: 2rem;
+  .boxBtnbotMobile {
+    padding: 1rem;
+    padding-top: 2rem;
+  }
 
-      }
-
-      .btnheroButton{
-        padding: 1rem;
-        padding-left: 7.5rem;
-        padding-right: 7.5rem;
-        font-size: 18px;
-      }
+  .btnheroButton {
+    padding: 1rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+    font-size: 18px;
+    width: 100%;
+  }
 }
 
-
-@media (min-width: 1200px) { 
-  .buttonTop{
+@media (min-width: 1200px) {
+  .buttonTop {
     display: none;
-    }
-    
-      .heroImage{ 
-          width: 37%;
-          max-width: 850px; 
-      }
-    
-    .titleContainer{
+  }
+
+  .heroImage {
+    width: 37%;
+    max-width: 850px;
+  }
+
+  .titleContainer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
     gap: 15rem;
-    }
-    
-    .headArticle{
+  }
+
+  .headArticle {
     padding-left: 1rem;
     font-size: 45px;
-    }
-    
-    .semiArticle{
+  }
+
+  .semiArticle {
     padding-left: 1rem;
     padding-top: 2rem;
     font-size: 20px;
-    }
-    
-    .listIcon {
+  }
+
+  .listIcon {
     display: flex;
     flex-direction: row;
     padding-left: 1rem;
     padding-top: 4rem;
     gap: 2rem;
-    
-    }
-    
-    .containerIcon{
+  }
+
+  .containerIcon {
     display: flex;
     align-items: center;
-    gap: 1rem ;
-    }
-    
-    .iconBox{
+    gap: 1rem;
+  }
+
+  .iconBox {
     width: 30px;
     height: 30px;
     background: black;
@@ -175,36 +171,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    }
-    
-    .iconSize{
+  }
+
+  .iconSize {
     width: 20px;
     height: 20px;
     color: floralwhite;
-    }
-    
-    .buttonHero{
-      padding-top: 2rem;
-      padding-left: 1rem;
-    }
-   
-    .btnHero{
-      width: 7.5rem;
-      height: 2.6rem;
-    }
+  }
 
-    .brDetailHeroMobile{
-      display: none;
+  .buttonHero {
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
 
-    }
+  .btnHero {
+    width: 7.5rem;
+    height: 2.6rem;
+  }
 
-    .btnheroButton{
-      display: none;
+  .brDetailHeroMobile {
+    display: none;
+  }
 
-    }
-    
+  .btnheroButton {
+    display: none;
+  }
 }
-
-
-
-

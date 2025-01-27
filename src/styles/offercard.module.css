@@ -1,4 +1,4 @@
-@media (max-width: 376px) {
+@media (max-width: 768px) {
   .containerOffer {
     display: flex;
     flex-direction: column;
@@ -61,10 +61,10 @@
   }
   .desDetailCard {
     font-size: 18px;
-    word-wrap: break-word; 
-    word-break: break-word; 
+    word-wrap: break-word;
+    word-break: break-word;
     white-space: normal;
-    line-height: 1.5; 
+    line-height: 1.5;
     text-align: justify;
   }
 }
@@ -80,40 +80,37 @@
     padding-bottom: 10rem;
   }
 
-  .containerArticle{
+  .containerArticle {
     padding-bottom: 5rem;
     padding-right: 50rem;
   }
 
-
   .headArticle {
     font-size: 45px;
     padding-bottom: 1rem;
-    
   }
 
   .detailArticle {
     font-size: 18px;
     width: 40rem;
-    word-wrap: break-word; 
-    word-break: break-word; 
+    word-wrap: break-word;
+    word-break: break-word;
     white-space: normal;
-    line-height: 1.5; 
+    line-height: 1.5;
     text-align: justify;
   }
 
+  .insideOfferCard {
+    display: flex;
+    display: row;
+    gap: 5rem;
+  }
 
-.insideOfferCard{
-display: flex;
-display: row;
-gap: 5rem;
-}
+  .boxCardOffer {
+    width: 19rem;
+  }
 
-.boxCardOffer{
-width: 19rem;
-}
-
-.boxdetailCard {
+  .boxdetailCard {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -125,13 +122,8 @@ width: 19rem;
     border-radius: 10px;
   }
 
-  
-
-  .headDetailCard{  
-  width: 13.5rem;
-  padding-top: 3rem;
+  .headDetailCard {
+    width: 13.5rem;
+    padding-top: 3rem;
   }
-
-
-
 }

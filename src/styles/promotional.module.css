@@ -1,3 +1,23 @@
+.cruvedPromotionalBox {
+  position: relative;
+  width: 200%;
+  height: 110px;
+  background-color: white;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.cruvedPromotionalSection {
+  position: absolute;
+  top: -70px;
+  left: -5%;
+  width: 150%;
+  height: 110px;
+  background-color: #f6f5f5;
+  border-radius: 70% / 70%;
+  z-index: 50;
+}
+
 .PromotionalContainer {
   display: flex;
   flex-direction: column;
@@ -21,17 +41,33 @@
   padding: 0.7rem 1.25rem;
   background-color: black;
   color: white;
-  border: none;
+  border: 1px solid black;
   border-radius: 0.3rem;
   font-size: medium;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
   z-index: 10;
+  position: relative;
+}
+
+.PromotionalButton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #ffbf23;
+  transition: width 0.5s ease;
+  z-index: -1;
+}
+
+.PromotionalButton:hover::before {
+  width: 100%;
 }
 
 .PromotionalButton:hover {
-  background-color: #ffbf23;
   color: black;
   border: 1px solid black;
   z-index: 10;
