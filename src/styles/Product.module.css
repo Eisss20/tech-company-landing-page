@@ -125,7 +125,7 @@
 }
 
 /* Responsive Design */
-@media (max-width: 968px) {
+@media (max-width: 768px) {
   .layout {
     flex-direction: column; /* เปลี่ยนการจัดวางให้เป็นแนวตั้ง */
     gap: 2rem;
@@ -142,7 +142,7 @@
   }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 768px) {
   .title {
     font-size: 2rem;
     line-height: 1.4;

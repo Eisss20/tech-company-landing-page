@@ -1,0 +1,69 @@
+.container {
+  background-color: #fdd6ed;
+  padding: 4rem 2rem;
+  position: relative;
+  
+}
+
+.content {
+  max-width: 1200px;
+  height: auto; /* ปรับให้สูงอัตโนมัติตามเนื้อหา */
+  text-align: start;
+  gap: 2rem;
+}
+
+.heading { 
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem; /* เพิ่มระยะห่างด้านล่าง h2 */
+}
+
+.paragraph { 
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333; /* เปลี่ยนสีข้อความได้ตามต้องการ */
+  margin-bottom: 3rem; /* เพิ่มระยะห่างด้านล่าง h2 */
+  width: 425px;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem; /* เพิ่มระยะห่างระหว่างรูป */
+}
+
+.img {
+  width: calc(25% - 1rem);
+  height: 120px;
+  object-fit: contain;
+  padding: 0.6rem;
+}
+
+.cruvedBox {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  background-color: #fdd6ed;
+  overflow: hidden;
+  z-index: 50;
+  margin-top: 4rem;
+}
+
+.cruvedBoxContent {
+  position: absolute;
+  top: -70px;
+  right: -5%;
+  width: 150%;
+  height: 110px;
+  background-color: white;
+  border-radius: 70% / 70%;
+  z-index: 50;
+}
+
+@media (max-width: 768px) {
+  .img {
+    width: calc(50% - 1rem); /* แสดง 2 รูปใน 1 แถวสำหรับหน้าจอมือถือ */
+    height: 90px;
+  }
+}

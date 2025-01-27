@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import NavBar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import ArticleSection from "@/components/ArticleSection";
@@ -18,13 +17,5 @@ export default function Home() {
       <Promotional />
       <Footer />
     </>
-=======
-import Alttical from "@/components/Alttical";
-export default function Home() {
-  return (
-   
-      <Alttical/>
-
->>>>>>> c0ff949 (feat: add alttical component and responsive)
   );
 }
