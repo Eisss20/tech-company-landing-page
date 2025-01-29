@@ -18,40 +18,40 @@ export default function Partner() {
           <div className={styles.logos}>
             <img
               className={styles.img}
-              src="./assets/meta definer.avif"
+              src="./assets/meta definer.svg"
               alt="meta definer"
             />
             <img
               className={styles.img}
-              src="./assets/delta tech .avif"
+              src="./assets/delta tech.svg"
               alt="delta tech"
             />
             <img
               className={styles.img}
-              src="./assets/techmed.avif"
+              src="./assets/techmed.svg"
               alt="techmed"
             />
             <img
               className={styles.img}
-              src="./assets/powercore.avif"
+              src="./assets/powercore.svg"
               alt="powercore"
             />
             <img
               className={styles.img}
-              src="./assets/strongest-link.avif"
+              src="./assets/strongest-link.svg"
               alt="strongest-link"
             />
             <img
               className={styles.img}
-              src="./assets/cog-industry.avif"
+              src="./assets/cog-industry.svg"
               alt="cog-industry"
             />
             <img
               className={styles.img}
-              src="./assets/a.t.motion.avif"
+              src="./assets/a.t.motion.svg"
               alt="a.t.motion"
             />
-            <img className={styles.img} src="./assets/bond.avif" alt="bond" />
+            <img className={styles.img} src="./assets/bond.svg" alt="bond" />
           </div>
         </div>
       </div>

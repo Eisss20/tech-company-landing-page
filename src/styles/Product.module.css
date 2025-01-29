@@ -4,24 +4,25 @@
   height: 100%;
   margin: 0 auto;
   padding: 2rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .layout {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 5rem;
+  width: 100%;
+  height: 100%;
 }
 
 .content {
-  width: 50%;
   position: relative;
   display: flex;
+  background: #d6fde2;
 }
 
-/* Avatar Grid */
 .avatar {
-  background: transparent;
   position: relative; /* สร้างบริบทสำหรับ z-index */
   z-index: 2; /* ให้อยู่ด้านหน้ากล่อง */
 }
@@ -63,7 +64,9 @@
 /* Content Section */
 .contentSection {
   padding: 2rem 0;
-  width: 30%;
+  background: #e96f6f;
+  gap: 5rem;
+
 }
 
 .title {
@@ -72,7 +75,7 @@
   line-height: 1.2;
   margin-bottom: 1.5rem;
   color: #000;
-  width: 450px;
+
 }
 
 .description {
@@ -88,6 +91,7 @@
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  background: #333;
 }
 
 .feature {
