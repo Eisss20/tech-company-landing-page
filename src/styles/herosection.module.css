@@ -9,10 +9,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 1rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
-    font-size: 18px;
+    width: 90%; 
+    padding: 5px;
+    font-size: 16px;
     box-shadow: 6px 6px 1px;
     border-radius: 10px;
     cursor: pointer;
@@ -20,6 +19,8 @@
     position: relative;
     z-index: 1;
     background-color: #fcbd23;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
   }
 
   .buttonStarted::before {
@@ -37,7 +38,7 @@
 
   .buttonStarted:hover::before {
     font-size: 15px;
-    width: 20rem;
+    width: 100%;
     cursor: pointer;
   }
 
@@ -113,7 +114,7 @@
     padding: 1rem;
     padding-left: 7.5rem;
     padding-right: 7.5rem;
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
   }
 }
