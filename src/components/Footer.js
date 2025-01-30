@@ -1,5 +1,5 @@
 import LogoIcon from "./LogoCompany";
-import styles from "../styles/Footer.module.css";
+import styles from "../styles/footer.module.css";
 
 function Footer() {
   return (
