@@ -4,13 +4,14 @@
     padding-left: 1rem;
     background-color: ghostwhite;
     display: flex;
-    gap: 44px;
+    justify-content: space-around;
+    gap: 3rem;
     align-items: center;
   }
 
   .RxHamburgerMenu {
-    width: 40px;
-    height: 40px;
+    width: 10%;
+    height: 10%;
   }
 
   .linkBox {

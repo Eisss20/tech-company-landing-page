@@ -15,7 +15,7 @@
     box-shadow: 6px 6px 1px black !important;
     border: 2px solid black;
     border-radius: 10px;
-    font: black !important;
+    color: black !important;
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -35,14 +35,14 @@
     position: absolute;
     background-color: lemonchiffon;
     z-index: -1;
-    color: black !important; 
+    color: black !important;
   }
 
   .buttonStarted:hover::before {
     font-size: 15px;
     width: 100%;
     cursor: pointer;
-    color: black !important; 
+    color: black !important;
   }
 
   .heroImage {
