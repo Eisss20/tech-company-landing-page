@@ -35,12 +35,14 @@
     position: absolute;
     background-color: lemonchiffon;
     z-index: -1;
+    color: black !important; 
   }
 
   .buttonStarted:hover::before {
     font-size: 15px;
     width: 100%;
     cursor: pointer;
+    color: black !important; 
   }
 
   .heroImage {
