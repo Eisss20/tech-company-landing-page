@@ -8,14 +8,14 @@ export default function Partner() {
         <div className={styles.cruvedBoxContent}></div>
       </div>
       <div className={styles.container}>
-        <div className={styles.content}>
+        <div className={styles.content} data-aos="fade-up">
           <h2 className={styles.heading}>Trusted Among Industry Leaders</h2>
           <p className={styles.paragraph}>
             I'm a paragraph. Click here to add your own text and edit me. It’s
             easy. Just click “Edit Text” or double click me to add your own
             content and make changes to the font.
           </p>
-          <div className={styles.logos}>
+          <div className={styles.logos} data-aos="fade-up">
             <img
               className={styles.img}
               src="./assets/meta definer.svg"

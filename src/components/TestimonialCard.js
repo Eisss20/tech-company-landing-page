@@ -5,7 +5,12 @@ export default function TestimonialCard() {
     <div className={styles.container}>
       <div className={styles.layout}>
         <h1 className={styles.h1}>What Our Clients Say</h1>
-        <div className={styles.testimonials}>
+        <div
+          className={styles.testimonials}
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           {/* Card 1 */}
           <div className={styles.card_wrapper}>
             <div className={styles.card}>
@@ -45,7 +50,7 @@ export default function TestimonialCard() {
               </div>
               <div className={styles.card_content}>
                 <p className={styles.testimonial_text}>
-                  “ I'm a testimonial. Click to edit me and add text that says
+                  “I'm a testimonial. Click to edit me and add text that says
                   something nice about you and your services. Let your customers
                   review you and tell their friends how great you are.”
                 </p>

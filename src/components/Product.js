@@ -5,8 +5,8 @@ const Product = () => {
     <div className={styles.container}>
       <div className={styles.layout}>
         {/* Left Section - Browser Window */}
-        <div className={styles.leftDisplay}>
-          <div className={`${styles.circle}`}>
+        <div className={styles.leftDisplay} data-aos="fade-right">
+          <div className={`${styles.circle}`} data-aos="fade-up">
             <img src="./assets/alttical1.svg" alt="User avatar" />
           </div>
           <div className={styles.browser}>
@@ -19,7 +19,7 @@ const Product = () => {
         </div>
 
         {/* Right Section - Content */}
-        <div className={styles.contentSection}>
+        <div className={styles.contentSection} data-aos="fade-left">
           <h1 className={styles.title}>Built for Creatives, by Creatives</h1>
           <p className={styles.description}>
             I'm a paragraph. Click here to add your own text and edit me. It's
