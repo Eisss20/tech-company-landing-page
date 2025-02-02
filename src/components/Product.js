@@ -1,13 +1,20 @@
-import styles from "../styles/Product.module.css";
+import styles from "../styles/product.module.css";
 
 const Product = () => {
   return (
     <div className={styles.container}>
       <div className={styles.layout}>
         {/* Left Section - Browser Window */}
-        <div className={styles.content}>
-          <div className={`${styles.avatar}`}>
-            <img src="./assets/alttical.svg" alt="User avatar" />
+        <div className={styles.leftDisplay}>
+          <div className={`${styles.circle}`}>
+            <img src="./assets/alttical1.svg" alt="User avatar" />
+          </div>
+          <div className={styles.browser}>
+            <img
+              src="./assets/margin-top 4rem;.svg"
+              alt=""
+              className={styles.browserInner}
+            />
           </div>
         </div>
 
@@ -21,20 +28,22 @@ const Product = () => {
             tell a story and let your users know a little more about you.
           </p>
 
-          <div className={styles.features}>
-            <div className={`${styles.feature} ${styles.toolkitFeature}`}>
+          <div className={styles.featureContainer}>
+            <div className={`${styles.featureBox} ${styles.toolkitFeature}`}>
               <div className={styles.featureIcon}>
                 <img src="./assets/toolkit.svg" alt="Toolkit icon" />
               </div>
               <span>All-In-One Toolkit</span>
             </div>
-            <div className={`${styles.feature} ${styles.fileSharingFeature}`}>
+            <div
+              className={`${styles.featureBox} ${styles.fileSharingFeature}`}
+            >
               <div className={styles.featureIcon}>
                 <img src="./assets/flie-sharing.svg" alt="File sharing icon" />
               </div>
               <span>Integrated File Sharing</span>
             </div>
-            <div className={`${styles.feature} ${styles.designFeature}`}>
+            <div className={`${styles.featureBox} ${styles.designFeature}`}>
               <div className={styles.featureIcon}>
                 <img src="./assets/design3.svg" alt="Design icon" />
               </div>

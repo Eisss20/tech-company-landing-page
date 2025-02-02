@@ -25,6 +25,7 @@
   justify-content: center;
   gap: 70px;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .card_wrapper {
@@ -71,9 +72,8 @@
   left: -180px;
 }
 
-
 .card_header {
-  background-color: #FFBF23;
+  background-color: #ffbf23;
   border-bottom: 3px solid #000000;
   padding: 12px;
   display: flex;
@@ -125,21 +125,22 @@
   }
 
   .card_content {
-  padding: 2rem;
-}
-  
+    padding: 2rem;
+  }
+
   .h1 {
     font-size: 24px;
     margin-top: 0rem;
     width: 50%; /* ให้ความกว้างเต็มที่ */
     text-align: start; /* จัดข้อความให้อยู่ตรงกลาง */
   }
-  
+
   .testimonials {
     flex-direction: column;
     align-items: center;
     gap: 70px;
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .card_wrapper {
@@ -148,13 +149,13 @@
   }
 
   @media (max-width: 768px) {
-  .plant_image_1,
-  .plant_image_2,
-  .plant_image_3 {
-    width: 80%; /* ลดขนาดรูปภาพ */
-    height: 140px; /* ลดความสูง */
-    left: -70px; /* ปรับตำแหน่งซ้าย */
-    bottom: -30px; /* ปรับตำแหน่งล่าง */
+    .plant_image_1,
+    .plant_image_2,
+    .plant_image_3 {
+      width: 80%; /* ลดขนาดรูปภาพ */
+      height: 140px; /* ลดความสูง */
+      left: -70px; /* ปรับตำแหน่งซ้าย */
+      bottom: -30px; /* ปรับตำแหน่งล่าง */
+    }
   }
-}
 }
