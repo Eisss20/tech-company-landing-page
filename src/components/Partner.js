@@ -1,4 +1,4 @@
-import styles from "../styles/partner.module.css";
+import styles from "../styles/partnersection.module.css";
 
 export default function Partner() {
   return (

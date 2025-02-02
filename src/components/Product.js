@@ -1,4 +1,4 @@
-import styles from "../styles/product.module.css";
+import styles from "../styles/productsection.module.css";
 
 const Product = () => {
   return (

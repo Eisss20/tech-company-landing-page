@@ -8,11 +8,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
-
+///// import aos มาใช้แค่หน้าเดียว 
 
 export default function HeroSection() {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // once: true ทำให้ animation เล่นแค่ครั้งเดียว
+    AOS.init({ duration: 1000, once: true }); 
   }, []);
 
   return (
