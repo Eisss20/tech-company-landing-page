@@ -2,7 +2,7 @@
 
 **Tech Landing** is a simple landing page built with **Next.js** and **CSS**. It focuses on practicing modern front-end development by utilizing **server-side rendering (SSR), static generation (SSG), and dynamic rendering with JavaScript `map()`**.
 
-
+### 🚧 Project Status: **On Going** 🚧
 
 🚀 **Live Demo:** [Tech company](https://tech-company-landing-page-brown.vercel.app/#about)  
 
