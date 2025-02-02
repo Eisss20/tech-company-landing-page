@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 function Pricing() {
   return (
     <>
-      <section className={styles.pricingContainer}>
+      <section className={styles.pricingContainer} data-aos="fade-up" >
         <div>
           <h2 className={styles.pricingTitle}>Explore Our</h2>
           <h2 className={styles.pricingTitle}>Pricing Options</h2>

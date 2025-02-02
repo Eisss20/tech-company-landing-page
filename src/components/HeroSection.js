@@ -3,20 +3,31 @@ import { CustomButton } from "./CustomElements";
 import { LuExpand } from "react-icons/lu";
 import { HiMiniBolt } from "react-icons/hi2";
 import { GoCodeOfConduct } from "react-icons/go";
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 
 export default function HeroSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true }); // once: true ทำให้ animation เล่นแค่ครั้งเดียว
+  }, []);
+
   return (
     <>
       <div className={styles.buttonTop}>
         <button className={styles.buttonStarted}>Get Started</button>
       </div>
-      <article className={styles.titleContainer}>
+      <article  className={styles.titleContainer}>
         <img
           src="/image/HeroSectionImage.svg"
           alt="Hero Section"
           className={styles.heroImage}
+          data-aos="fade-left"
         />
-        <section>
+        <section data-aos="fade-right">
           <main className={styles.headArticle}>
             <h1>Communicate.</h1>
             <h1>Collaborate. Create.</h1>

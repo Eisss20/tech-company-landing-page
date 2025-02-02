@@ -28,8 +28,8 @@ export default function OfferCardSection() {
 
   return (
     <>
-      <main className={styles.containerOffer}>
-        <article className={styles.containerArticle}>
+      <main  className={styles.containerOffer}>
+        <article  data-aos="fade-up"  className={styles.containerArticle}>
           <h1 className={styles.headArticle}> What We Offer </h1>
           <p className={styles.detailArticle}>
             I'm a paragraph. Click here to add your own text and edit me. It's
@@ -38,7 +38,7 @@ export default function OfferCardSection() {
           </p>
         </article>
         <figure className={styles.containerCardOffer} >
-            <aside className={styles.insideOfferCard}>
+            <aside data-aos="fade-up" className={styles.insideOfferCard}>
               {cardDetail.map((card, index) => (
                 <div key={index} className={styles.boxCardOffer}   >
                   <div>
