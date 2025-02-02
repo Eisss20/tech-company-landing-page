@@ -8,6 +8,9 @@
 
 🎨 **Reference Style:** Inspired by [Wix Template](https://www.wix.com/website-template/view/html/3028?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fall%2F2&tpClick=view_button&esi=f70d9760-16ca-4407-89b3-cb8d15d73deb)
 
+
+
+
 ## 🎯 Features
 - **Next.js for Server-side Rendering (SSR) & Static Site Generation (SSG)**
 - **Dynamic Content Rendering** using JavaScript `map()`
@@ -24,3 +27,7 @@
 - **Google Fonts** - Custom typography
 - **CSS Variables** - Theming
 
+## 👨‍💻 Developed by
+- [Barasia](https://github.com/basarisa)  
+- [Coloristk](https://github.com/Coloristk)  
+- [Eisss20](https://github.com/Eisss20)  
